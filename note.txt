@@ -1,0 +1,14 @@
+for typescrip lib, need add @ before lib
+
+
+1. high score way to declare
+const reminder2 = (dividend: number, divisor: number)=>{
+ 
+}
+
+2. how to handlefunction  validateEmail
+3. documentation format as follow, but not the comment
+  /**
+  *
+  *
+  */
