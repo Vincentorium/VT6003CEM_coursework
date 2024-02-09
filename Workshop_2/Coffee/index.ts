@@ -1,4 +1,7 @@
-import Coffee from "./coffee";
+import Coffee from "./Coffee";
+import Koa from "koa";
+const app: Koa = new Koa();
+
 
 try {
 	const coffee: Coffee = new Coffee('House Blend', 12);
