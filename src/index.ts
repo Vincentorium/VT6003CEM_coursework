@@ -8,7 +8,7 @@ router.get('/', async (ctx: RouterContext, next: any) => {
 ctx.body = { msg: 'Hello world!' };
 await next();
 })
-app.use(json);
+app.use(json());
 app.use(logger());
 app.use(router.routes()).use(router.allowedMethods());
 app.listen(10888, () => {
